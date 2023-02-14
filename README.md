@@ -5,8 +5,8 @@
 <table>
 <tbody>
     <tr>
-        <td><a href="https://luizfranzon.github.io/explorer/Projetos/Projeto-01/">Projeto 01</a></td>
-        <td><a href="https://luizfranzon.github.io/explorer/Projetos/Projeto-02/">Treine.me</a></td>
+        <td><a target="_blank" href="https://luizfranzon.github.io/explorer/Projetos/Projeto-01/">Projeto 01</a></td>
+        <td><a target="_blank" href="https://luizfranzon.github.io/explorer/Projetos/Projeto-02/">Treine.me</a></td>
         <!-- <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
