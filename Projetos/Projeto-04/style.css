@@ -153,6 +153,7 @@ select {
   display: flex;
   gap: 16px;
   margin: 0;
+  cursor: pointer;
 }
 
 .checkbox-wrapper input {
@@ -171,6 +172,7 @@ select {
   border-radius: 8px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .checkbox-wrapper input:checked+label::before {
@@ -192,7 +194,7 @@ footer {
   margin-bottom: 64px;
 }
 
-footer input {
+footer button {
   background-color: #04D361;
   width: 100%;
   border: none;
@@ -205,6 +207,10 @@ footer input {
   font-size: 16px;
 }
 
-footer input:hover {
+footer button:hover {
   background-color: #009e47;
 }
+
+/* input:invalid {
+  border: 1px solid #FF1010;
+} */
