@@ -60,13 +60,17 @@
             <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
             <input type="password" id="event-password">
           </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="event-isPrivate">
+            <label for="event-isPrivate">Evento privado</label>
+          </div>
         </div>
       </fieldset>
 
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Die e hora</legend>
-          <div class="three-col">
+          <div class="triple-col">
             <div class="input-wrapper date-input">
               <label for="event-date">Data</label>
               <input type="date" id="event-date">
@@ -82,7 +86,11 @@
           </div>
         </div>
       </fieldset>
+
     </form>
+    <footer class="form-buttons">
+      <input type="submit" value="Salvar evento">
+    </footer>
   </div>
 </body>
 
